@@ -12,6 +12,6 @@ class WorktualWidget extends HTMLElement {
   }
 }
 
-if (!customElements.get('widget')) {
-  customElements.define('widget', WorktualWidget);
+if (!customElements.get('worktual-info-widget')) {
+  customElements.define('worktual-info-widget', WorktualWidget);
 }
